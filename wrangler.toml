@@ -2,7 +2,10 @@ name = "bad-company-cron"
 main = "src/index.ts"
 compatibility_date = "2023-05-15"
 usage_model = "bundled"
-env = { }
+
+kv_namespaces = [
+  {binding = "ME",id = "229c9347b6e24c628e2e46d53a748cb5"}
+]
 
 [triggers]
 crons = [ "0 */1 * * *" ]

@@ -1,0 +1,12 @@
+{
+  "name": "bad-company-cron",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "author": "",
+  "license": "ISC"
+}
